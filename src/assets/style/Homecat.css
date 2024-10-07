@@ -1,0 +1,106 @@
+.category-img {
+  width: 100px;
+  height: 100px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.main-category-img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  text-align: start;
+}
+
+.overlay-content h5{
+ font-weight: bold;
+}
+
+.overlay-content h2{
+  font-weight: bold;
+  color: #fbaf33;
+  width: min-content;
+ }
+
+.active-category {
+  /* border-top: 3px solid #ffc107; */
+  /* border-left: 3px solid #ffc107; */
+  
+}
+
+.active-link {
+  color: #ffc107;
+}
+
+.inactive-link {
+  color: black;
+}
+
+.Inactive-category {
+  background-color: #d1d3d4;
+}
+
+.categories-main-section{
+  cursor: pointer;
+}
+
+/* Base styles for categories */
+.categories-main-section {
+  position: relative;
+  cursor: pointer;
+  padding-left: 15px;
+  overflow: hidden; /* Hide the animated line while it's expanding */
+}
+
+/* Before pseudo-element to create the expanding line effect */
+.categories-main-section::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%; /* Start from the middle */
+  width: 3px; /* The width of the yellow line */
+  height: 0; /* Initial height */
+  background-color: #ffc107; /* Yellow color */
+  transition: height 0.4s ease, top 0.4s ease; /* Smooth animation */
+}
+
+/* When a category is active, expand the line */
+.active-category::before {
+  height: 100%; /* Full height from top to bottom */
+  top: 0; /* Move to the top */
+}
+
+/* Styles for active and inactive links */
+.active-link {
+  color: #ffc107;
+}
+
+.inactive-link {
+  color: black;
+}
+
+.Inactive-category {
+  background-color: #d1d3d4;
+}
+
+/* Categories section styling */
+.categories-main-section {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.category-img {
+  width: 100px;
+  height: 100px;
+}
+

@@ -1,0 +1,34 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.scroll-btn {
+  background-color: #f1c40f;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0.8;
+  animation: bounce 0.9s infinite; /* Add bouncing animation */
+}
+
+.scroll-btn:hover {
+  opacity: 1;
+}
+
+/* Animation keyframes */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); /* Start at original position */
+  }
+  50% {
+    transform: translateY(-10px); /* Move up slightly */
+  }
+}

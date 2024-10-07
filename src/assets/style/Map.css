@@ -1,0 +1,14 @@
+.pan-ind {
+    /* height: 450px; */
+  }
+  
+  .pan-ind img {
+    width: 400px;
+  }
+  
+  .pan-ind h3,
+  .pan-ind p {
+    margin-top: 150px;
+    text-align: center; /* Center align text */
+  }
+  

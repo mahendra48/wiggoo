@@ -1,0 +1,51 @@
+/* Import the font Outfit */
+.footer {
+  font-family: "Outfit", sans-serif;
+  background-color: #000;
+}
+
+.footer h5 {
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.footer p,
+.footer a {
+  font-weight: 400;
+  color: #aaa; /* Light grey for text */
+  /* margin-bottom: 8px; */
+}
+
+.footer .col-md-3 a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.social-icons a {
+  font-size: 18px;
+  color: #aaa;
+  margin-right: 15px;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+/* Footer bottom text */
+.footer .col p {
+  font-weight: 500;
+  margin-top: 15px;
+  color: #ccc;
+}
+
+.footer li {
+    padding-bottom: 15px;
+}
+
+.footer li a:hover {
+    color: #fbaf33 !important
+  }
